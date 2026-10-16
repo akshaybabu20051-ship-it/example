@@ -10,3 +10,8 @@ data = {
 
 data = pd.DataFrame(data)
 data_train, data_test = train_test_split(data, test_size=0.2, random_state=42)
+
+print("Training Data:")
+print(data_train)
+print("\nTesting Data:")
+print(data_test)
