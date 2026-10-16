@@ -20,3 +20,9 @@ print(data_test)
 print("name of the columns in the DataFrame:", data.columns.tolist())
 print("number of rows and columns in the DataFrame:", data.shape)
 print("data types of each column in the DataFrame:", data.dtypes)   
+
+
+a =30
+b=20
+sum = a + b
+print("The sum of {} and {} is {}".format(a, b, sum))
