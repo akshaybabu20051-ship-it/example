@@ -19,4 +19,9 @@ print(data_test)
 
 print("name of the columns in the DataFrame:", data.columns.tolist())
 print("number of rows and columns in the DataFrame:", data.shape)
-print("data types of each column in the DataFrame:", data.dtypes)   
+print("data types of each column in the DataFrame:", data.dtypes)
+
+a =10
+b = 20
+sum = a+b
+print(sum)
