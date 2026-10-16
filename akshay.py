@@ -1,0 +1,12 @@
+import pandas as pd 
+from sklearn.model_selection import train_test_split
+data = {
+    "name": ["John", "Alice", "Bob", "Eve", "Charlie"],
+    "age": [25, 30, 22, 28, 35],
+    "country": ["USA", "USA", "USA", "USA", "USA"],
+    "course": ["Math", "Science", "History", "Art", "Music"]
+    
+}
+
+data = pd.DataFrame(data)
+data_train, data_test = train_test_split(data, test_size=0.2, random_state=42)
